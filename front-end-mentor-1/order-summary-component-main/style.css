@@ -1,0 +1,120 @@
+body {
+  height: 100vh;
+  background-image: url(./images/pattern-background-desktop.svg);
+  margin: 0;
+  background-size: contain;
+  background-position-y: -25%;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+button.btn-primary,
+.cancel {
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: auto;
+}
+
+@media (max-width: 376px) {
+  .card-music {
+    margin-top: 80%;
+    height: 80%;
+  }
+}
+.card-music {
+  background-color: white;
+  border-radius: 1.5rem;
+  width: 59%;
+  height: auto;
+}
+
+.card-title {
+}
+
+.card-title,
+.card-text,
+.payment,
+.cancel {
+  text-align: center;
+}
+
+.card-text {
+  margin: 0 10% 0 10%;
+}
+
+svg.dance {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.abonnement {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  margin: 5% 10% 10% 5%;
+}
+
+.annual {
+  padding-right: 60px;
+  line-height: 5px;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-size: 15px;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+  padding-right: 10px;
+  font-style: bold;
+}
+
+button.btn-primary {
+  cursor: pointer;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 1rem;
+  width: 80%;
+  height: 50px;
+  box-shadow: 0px 25px 20px hsl(225, 100%, 94%);
+}
+
+.cancel {
+  padding-top: 30px;
+  height: 50px;
+  color: hsl(224, 23%, 55%);
+}
+.cancel-link {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
